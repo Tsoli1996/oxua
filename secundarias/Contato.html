@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang=¨pt-br¨>
+<meta charset="UTF-8"><!--Essa tag serve para que os navegadores saibam como devem renderizar os textos incluídos em uma pág--> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="./picturess/icone.ico"><!--Link para colocar o icone junto ao title da pág-->
+
+<head>
+
+   <link rel="stylesheet" type="text/css" href="C:\Users\tsoli\Desktop\doc\Stylecss\estilo.css"/><!--Link para conectar esse arquivo html ao arquivo css criado para estilizar este-->
+   <title>TSEletric</title>
+   
+</head>
+
+<body>
+    <ul>
+    <li><a href="C:\Users\tsoli\Desktop\doc\index.html"><h1>TSEletric</h1></a></li><!--Aqui o nome da pág foi transformado em um link pro usuário retornar a pág principal-->
+    </ul>
+    <br><!--quebra de linha-->
+    <br>
+   
+    
+<h3>Preencha o formulário e enviaremos um orçamento por email.</h3>
+
+<div id="area"><!--tag para dividir todo esse formulário e poder estilizar ele e posicionar como um todo-->
+<form action=”/formulario-contato” method=”post”><!--Tag para abrir formulário-->
+<fieldset><!--usado para agrupar os elementos do formulário-->
+        
+            <legend><h2>Formulário</h2></legend>
+        
+            <label for="nome"><h2>Nome :</h2></label><!--label--usado para agrupar os elementos do formulário-->
+            <input type="texto" id="nome" name="nome_usuario"><!--input-é usado para criar controles interativos para formulários baseados na web para receber dados do usuário-->
+       
+        
+        
+            <label for="email"><h2>Email:</h2></label>
+            <input type="email" id="email" name="email_usuario">
+        
+        
+        
+            <label for="texto"><h2>Mensagem:</h2></label>
+       
+            <textarea id="texto" name="texto_usuario"></textarea><!--textarea permiti ao usuario informar um texto extenso em formato livre-->
+        <br>
+            <button>Enviar</button> <!--butão criado para enviar as respostas do formulário-->
+        
+        
+
+</fieldset>
+</form>       
+</div>
+</body>
+</html>

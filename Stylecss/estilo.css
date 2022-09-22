@@ -1,0 +1,144 @@
+/* RESPONSIVO: identificar tela e aplicar medidas caso seja desktop  */
+@media screen and (max-width: 2000px) {   
+
+
+
+h3 {
+  color: blue;
+}
+
+h2 { color: blue;
+font-family:sans-serif;
+}
+
+h1 { color: blue; /*usado para estilizar texto marcados com a tag h1,h2,h3 no arquivo html  */
+font: size 50px;
+}
+
+ul{
+ 
+  text-decoration: none;/*usado para estilizar os botões de links na pág inicial retirando a linha que os estava sublinhando */
+  list-style: none;/*usado para retirar a marcação nos botões que não batia com a estética dos botões*/
+}
+
+#area{
+  text-align: center;
+  width: 300px;/*usado para posicionas os elementos dentro da div com id area */
+}
+
+
+
+
+body { /*usado para estilizar os elementos dentro da tag body com fonte de texto,posicionamento, um background */
+    color:blue;
+    margin:0;
+    padding:0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: size 14px;
+    background-image:url(https://img.freepik.com/fotos-premium/ferramentas-e-equipamentos-eletricos-em-fundo-cinza-com-espaco-de-copia-vista-do-topo_106035-1324.jpg?w=2000);
+    background-size: cover;
+}
+
+.middle{  /*usado para posicionar os elementos dentro da tag div com id area */
+  text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  
+
+  .btn{  /*usado para estilizar e posicionar os botões criados na pág inicial */
+    position: relative;
+    display: block;
+    color: black;
+    font-size: 15px;
+    font-family: "Cambria";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 5px solid blue;
+    padding: 14px 60px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
+  }
+}
+
+
+
+
+
+/* RESPONSIVO: identificar tela e aplicar medidas caso seja mobile  */
+@media screen and (max-width: 800px) {  
+
+  h3 {
+    color: blue;
+  }
+
+  h2 { color: blue;
+    font-family:sans-serif;
+    }
+  
+  
+  
+  h1 { color: blue; /*usado para estilizar texto marcados com a tag h1,h2,h3 no arquivo html  */
+  font: size 50px;
+  }
+  
+  ul{
+
+    align-items: center;
+    padding-left: 0;
+    text-decoration: none;/*usado para estilizar os botões de links na pág inicial retirando a linha que os estava sublinhando */
+    list-style: none;/*usado para retirar a marcação nos botões que não batia com a estética dos botões*/
+  }
+  
+  #area{
+    text-align: center;
+    width: 300px;/*usado para posicionas os elementos dentro da div com id area */
+  }
+  
+  
+  
+  
+  body { /*usado para estilizar os elementos dentro da tag body com fonte de texto,posicionamento, um background */
+      color:blue;
+      margin:0;
+      padding:0;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-image: url(https://img.freepik.com/fotos-premium/ferramentas-e-equipamentos-eletricos-em-fundo-cinza-com-espaco-de-copia-vista-do-topo_106035-1324.jpg?w=2000);
+      background-size: cover;
+      
+      
+  }
+  
+  .middle{  /*usado para posicionar os elementos dentro da tag div com id area */
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  
+    
+  
+    .btn{  /*usado para estilizar e posicionar os botões criados na pág inicial */
+      position: relative;
+      display: block;
+      color: black;
+      font-size: 15px;
+      font-family: "Cambria";
+      text-decoration: none;
+      margin: 30px 0;
+      border: 5px solid blue;
+      padding: 14px 60px;
+      text-transform: uppercase;
+      overflow: hidden;
+      transition: 1s all ease;
+    }
+
+	
+}
+
+ 
